@@ -6,7 +6,7 @@ body {
   border: 2px solid black; /* Border style */
   padding: 10px; /* Optional padding */
   display: block; /* Change display to block */
-
+  max-width: 90%;
   margin: 0 auto; /* Center the element horizontally */
   box-sizing: border-box; /* Include border in the width calculation */
 }

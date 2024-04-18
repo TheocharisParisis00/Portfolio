@@ -1,0 +1,20 @@
+body {
+  background-color: beige;
+}
+.centered-heading {
+  text-align: center; /* Center align the text */
+  border: 2px solid black; /* Border style */
+  padding: 10px; /* Optional padding */
+  display: block; /* Change display to block */
+
+  margin: 0 auto; /* Center the element horizontally */
+  box-sizing: border-box; /* Include border in the width calculation */
+}
+
+#emote {
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+}

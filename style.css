@@ -1,20 +1,23 @@
-body {
+#Headline {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.social-box {
+  text-align: center;
   background-color: beige;
+  padding: 20px;
+  border-radius: 8px;
 }
-.centered-heading {
-  text-align: center; /* Center align the text */
-  border: 2px solid black; /* Border style */
-  padding: 10px; /* Optional padding */
-  display: block; /* Change display to block */
-  max-width: 90%;
-  margin: 0 auto; /* Center the element horizontally */
-  box-sizing: border-box; /* Include border in the width calculation */
+.social-link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  color: darkorange;
 }
-
-#emote {
-  text-align: center;
+.social-link:hover {
+  color: aquamarine;
 }
-
-#about {
-  text-align: center;
+.social-link:last-child {
+  margin-right: 10px;
 }

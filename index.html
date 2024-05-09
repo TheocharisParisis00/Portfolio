@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Theocharis's Portofolio</title>
+    <title>My protfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <h1 id="Headline">From (coding😇)Lines to Solutions. 🙏</h1>
-    <br /><br />
-    <p id="WelcomeStatement">
-      "Welcome to my portfolio! As a software engineering student, you're
-      embarking on an exciting journey filled with endless opportunities to
-      innovate, create, and solve real-world problems through code. Here, you'll
-      find a showcase of my passion for software development, where each project
-      represents a step forward in my quest for excellence. Whether you're here
-      to explore my projects, delve into my technical expertise, or simply
-      connect over our shared love for coding, I invite you to join me on this
-      exhilarating journey of growth and discovery. Together, let's shape the
-      future of technology, one line of code at a time."
-    </p>
-    <br />
-    <h2>Checkout my socials.👇</h2>
-    <div class="social-box">
-      <a href="" class="social-link">facebook</a>
-      <a href="" class="social-link">instagram</a>
-      <a href="" class="social-link">github</a>
-    </div>
-    <h3 id="abouth">About:</h3>
-    <p id="about">
-      Full time informatics student and a part time waiter. <br />
-      Gym rat and gamer for hobby.
-    </p>
+    <nav id="desktop-nav">
+      <div class="logo">Theocharis Parisis</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Theocharis</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#About" onclick=" toggleMenu()">About</a></li>
+          <li>
+            <a href="#Experience " onclick="toggleMenu()">Experience</a>
+          </li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="assets/me.jpg" alt="Theocharis profile picture" id="me" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello i'm</p>
+        <h1 class="title">Theocharis Parisis</h1>
+        <p class="section__text__p2">a front end developer</p>
+        <div class="btn-container">
+          <button class="btn-color2" onclick="location.href='./#Contact'">
+            My info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/instagram.png"
+            alt="instagram-profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/theoxaris_parisis/'"
+          />
+          <img
+            src="./assets/Github.png"
+            alt="github"
+            class="icon"
+            onclick="location.href='https://github.com/theocharis69'"
+          />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>

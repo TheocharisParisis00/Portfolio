@@ -3,52 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My protfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Theocharis Parisis</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#About">About</a></li>
-          <li><a href="#Experience">Experience</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          <li><a href="">Projects</a></li>
-        </ul>
+    <header>
+      <p>Theocharis Parisis</p>
+      <a href="#Contact">Contact</a>
+      <button class="btn1">Toogle Theme</button>
+    </header>
+    <main>
+      <div class="Bio">
+        <p class="question">Who is Theocharis?</p>
+        <p class="answer">
+          Theocharis is a Student from Greece that studies Informatics. He is
+          currently located in Thessaloniki and he enjoys Programming
+        </p>
       </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Theocharis</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#About" onclick=" toggleMenu()">About</a></li>
-          <li>
-            <a href="#Experience " onclick="toggleMenu()">Experience</a>
-          </li>
-          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
-          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__text">
-        <p class="section__text__p1">Hello i'm</p>
-        <h1 class="title">Theocharis Parisis</h1>
-        <p class="section__text__p2">a front end developer</p>
-        <div class="btn-container">
-          <button class="btn-color2" onclick="location.href='./#Contact'">
-            My info
-          </button>
-        </div>
-      </div>
-    </section>
-    <script src="script.js"></script>
+    </main>
   </body>
 </html>

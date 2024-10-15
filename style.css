@@ -1,3 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+  margin-left: 20px;
+}
+
+nav a {
+}
+
+nav .btn1 {
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
 /* light Theme
   •	Header: #FFFFFF (White)
 	•	Background: #F7F7F7 (Very Light Gray)
@@ -5,7 +39,9 @@
 	•	Link: #0056B3 (Dark Blue)
 	•	Text: #333333 (Dark Gray)
 	•	Footer: #E0E0E0 (Light Gray)
- Dark Theme
+*/
+/*
+   Dark Theme
   •	Header: #1F1F1F (Deep Black)
 	•	Background: #121212 (Very Dark Gray)
 	•	Button1: #4CAF50 (Bright Green)
@@ -13,11 +49,3 @@
 	•	Text: #E0E0E0 (Light Gray)
 	•	Footer: #232323 (Dark Gray)      
 */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f7f7f7;
-}

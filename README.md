@@ -1,2 +1,1 @@
-# Portfolio
-This is my portfolio on the making
+The first project that all the programmers should make.

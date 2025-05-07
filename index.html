@@ -3,42 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Theocharis Parisis • Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
-      <p class="logo"  id="name">Your name?</p>
-      <a
-        href="mailto:theoxaris.parisis@gmail.com?subject=Message from Theocharis&body=Hello,%0D%0A%0D%0APlease type your message here.%0D%0A%0D%0ABest regards,"
-        >Email me</a
-      >
-      <button class="btn1" id="theme-toggle">Toogle Theme</button>
-    </nav>
-    <main>
-      <div class="Bio">
-        <img src="/me.jpeg" alt="Me" />
-        <p class="question">Who is Theocharis?</p>
-        <p class="answer">
-          Theocharis is a Student from Greece that studies Informatics. He is
-          currently located in Thessaloniki and he enjoys Programming.
-        </p>
+      <div class="logo" id="name">Theocharis Parisis</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/resume.pdf" class="btn">Download Resume</a>
+        <button class="btn" id="theme-toggle">Toggle Theme</button>
       </div>
-    </main>
-    <footer>
-      <div class="contact-box">
-        <p>You can find me here :</p>
-        <ul>
+    </nav>
+
+    <main>
+      <section id="hero" class="hero">
+        <h1>Hi, I’m Theocharis Parisis</h1>
+        <p>Informatics Student &amp; Aspiring Software Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <!-- Repeat this card for each project -->
+          <div class="project-card">
+            <h3>Project Title</h3>
+            <p>
+              Short description of the project, challenges, and what you
+              learned.
+            </p>
+            <div class="tech-stack"><span>Python</span><span>React</span></div>
+            <a href="#" class="btn">Live Demo</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+          <!-- End project card -->
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Frameworks &amp; Libraries</h3>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Flask</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools &amp; Platforms</h3>
+            <ul>
+              <li>Git</li>
+              <li>Docker</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Short personal introduction, background, and passions.</p>
+      </section>
+
+      <section id="education" class="education">
+        <h2>Education</h2>
+        <p>B.Sc. in Informatics, University Name, Expected Graduation: 2025</p>
+      </section>
+
+      <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="experience-card">
+          <h3>Job Title – Company</h3>
+          <p>Timeframe</p>
+          <p>Brief description of your role and accomplishments.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email or on my social media:</p>
+        <a href="mailto:theoxaris.parisis@gmail.com" class="btn">Email Me</a>
+        <ul class="social-links">
+          <li>
+            <a href="https://github.com/kappaprogramour" target="_blank"
+              >GitHub</a
+            >
+          </li>
           <li>
             <a
               href="https://www.instagram.com/theoxaris_parisis/"
               target="_blank"
               >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/kappaprogramour" target="_blank"
-              >Github</a
             >
           </li>
           <li>
@@ -49,8 +120,13 @@
             >
           </li>
         </ul>
-      </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Theocharis Parisis. All rights reserved.</p>
     </footer>
+
     <script src="/script.js"></script>
   </body>
 </html>

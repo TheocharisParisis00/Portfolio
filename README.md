@@ -1,1 +1,1 @@
-The first project that all the programmers should make.
+This is the first project that i made in my coding journey
